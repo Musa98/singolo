@@ -91,11 +91,11 @@ header{
     padding-top:10px;
     padding-right: 30px;
 }
-.nav li a:her{
+.nav li a:hover{
 color:#f06c64;
 }
 .slider{
-    background-color: #f06g64;
+    background-color: #f06c64;
     min-height: 594px;
     width: 100%;
     border-bottom:6px solid #ea676b;
