@@ -1,0 +1,315 @@
+@font-face{
+    font-family: Lato-Regular;
+    src: url(assets/LatoLatin/fonts/LatoLatin-Regular.woff)
+}
+@font-face{
+    font-family: Lato-Black;
+    src: url(assets/LatoLatin/fonts/LatoLatin-Black.woff)
+}
+@font-face{
+    font-family: Lato-Bold;
+    src: url(assets/LatoLatin/fonts/LatoLatin-Bold.woff);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.wrapper{
+    
+    margin: 0 auto;
+    max-width: 1020px;
+    background-color: #2d303a;
+}
+
+header{
+    background-color: #2d303a;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: #2d303a;
+    height: 89px;
+    border-bottom: 6px solid #323746;
+}
+.logo h1{
+    margin-left:40px;
+    padding-top: 5px;
+    font-size: 25px;
+    line-height: 6px;
+    color: #ffffff;
+    font-family: "Lato-Regular";
+    font-weight: 500;
+    text-align: left;
+    letter-spacing: -0.4px;
+    font-stretch: ultra-condensed;
+}
+
+.logo h1::after{
+    content: "*";
+    color:  #f06c64;
+    margin-right:2px ;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+.nav-list{
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-content:center;
+    color: #ffffff;
+    font-family: "Lato-Regular";
+    font-weight: 500;
+    text-align: left;
+}
+.nav-list li a{
+    line-height: 6px;
+    font-size: 12px;
+    color:white;
+    text-decoration: none;
+    font-family: "Lato-Regular";
+    padding-right:10px;
+    text-align: left;
+    
+}
+.nav li:not(:last-child)::after {
+    content: "·";
+    color: #494e62;
+    margin-right: 13px;
+    margin-left: 2px;
+    margin-top: 105px;
+}
+.nav{
+    padding-top:10px;
+    padding-right: 30px;
+}
+.nav li a:her{
+color:#f06c64;
+}
+.slider{
+    background-color: #f06g64;
+    min-height: 594px;
+    width: 100%;
+    border-bottom:6px solid #ea676b;
+}
+.verticalPhone{
+    position: absolute;
+    background: url(../../../RSSchool/singolo/singolo/assets/img/iPhone_Vertical.png) no-repeat;
+    height:500px;
+    width: 301px;
+    border: none;
+    margin-left: 110px;
+    margin-top: 51px;
+}
+.horizontalPhone{
+    position: absolute;
+    background: url(../../../RSSchool/singolo/singolo/assets/img/iPhone_Horizontal.png) no-repeat;
+    height:500px;
+    width: 500px;
+    border: none;
+    margin-left: 424px;
+    margin-top: 173px;
+}
+.leftArrow{
+    margin-top: 281px;
+    position: absolute;
+    background: url(../../../RSSchool/singolo/singolo/assets/img/leftArrow.png) no-repeat;
+    height:30px;
+    width: 30px;
+    border: none;
+    margin-left: 42px;
+}
+.rightArrow{
+    position: absolute;
+    background: url(../../../RSSchool/singolo/singolo/assets/img/rightArrow.png) no-repeat;
+    height:30px;
+    width: 30px;
+    border: none;
+    margin-left: 964px;
+    margin-top: 281px;
+}
+.Services{
+    padding-top:10px;
+    height: 484px;
+    background-color: #f2f2f2;
+    border-bottom: 6px solid #ffffff;
+}
+.Content {
+    margin:60px 30px 35px 40px ;
+}
+.Content h1{
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato-Black";
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.Content p{
+    display: block;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato-Regular";
+    font-weight: 100;
+    letter-spacing: -0.17px;
+    text-align: left;
+    margin-top: 27px;
+    word-spacing: 0.3.5px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    margin-top: 29px;
+}
+.container h2{
+    font-size: 19px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato-Black";
+    font-weight: 900;
+    text-align: left;
+    word-spacing: -0.5px;
+    letter-spacing: -0.5px;
+}
+.container p{
+    width: 219px;
+    height: 128px;
+    font-size: 12px;
+    line-height: 21px;
+    color: #767e9e;
+    font-family: "Lato-Regular";
+    font-weight: 100;
+    margin-top: -8px;
+    text-align: justify;
+    word-spacing: -0.7px;
+    letter-spacing: 0.1px;  
+}
+.CustomDesign{ 
+    margin-left: 20px;
+    margin-bottom:-50px ; 
+}
+.CustomDesign h2{
+    letter-spacing: -0.55px;
+}
+.CustomDesign p{
+    padding-top: 1px;
+    padding-left: 1px;
+}
+.CustomDesignLogo{
+    background: url(../../../RSSchool/singolo/singolo/assets/img/pen.png);
+    width: 60px;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+}
+.Ideas{
+    margin-left: 20px;
+    margin-bottom:-50px ;
+}
+.Ideas h2{
+    letter-spacing: -0.3px;
+}
+.Ideas p{
+    padding-top: 1px;
+    padding-left: 1px;
+}
+.IdeasLogo{
+    background: url(../../../RSSchool/singolo/singolo/assets/img/lightbulb.png);
+    width: 60px;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    margin-left: 19px;
+}
+
+.Love{
+    margin-left: 22px;
+    margin-bottom:-50px ;
+}
+.Love p{
+    padding-top: 1px;
+    margin-left: -1px;
+}
+.Love h2{
+    margin-left: 0px;
+    word-spacing: 0px;
+}
+.LoveLogo{
+    background: url(../../../RSSchool/singolo/singolo/assets/img/heart.png);
+    width: 60px;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.Responsive{
+    margin-left: 20px;
+    margin-top: -9px;
+}
+.Responsive p{
+    margin-top: -5.85px;
+    margin-left: 2px;
+    text-align: justify;
+    word-spacing: -1.1px;
+    letter-spacing: 0px;
+}
+.ResponsiveLay{
+    background: url(../../../RSSchool/singolo/singolo/assets/img/phone.png);
+    width: 60px;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+.Support{
+    margin-left: 19px;
+    margin-top: -8px;   
+}
+.Support h2{
+    margin-top: 14px;
+    margin-left: -2px;
+    word-spacing: -1px;
+}
+.Support p{
+    margin-top: -5px;
+    text-align: justify;
+    word-spacing: -1px;
+    letter-spacing: 0px;
+}
+.SupportLogo{
+    background: url(../../../RSSchool/singolo/singolo/assets/img/bubble.png);
+    width: 60px;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+    margin-left: 18px;
+    margin-right: 2px;
+}
+.Star{
+    margin-left: 21px;
+    margin-top: -8px;
+    
+}
+.Star h2{
+    letter-spacing: -0.3px;
+    margin-top: 14px;
+}
+.Star p{
+    margin-top: -5px;
+    margin-left: -2px;
+}
+.StarLogo{
+    background: url(../../../RSSchool/singolo/singolo/assets/img/Star.png);
+    width: 60px;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 2px;
+}
